@@ -253,7 +253,7 @@ var script = {
             computedMinSize = current;
           }
 
-          accumulator += current;
+          accumulator += current + 8;
           sizes[i] = {
             accumulator: accumulator,
             size: current
